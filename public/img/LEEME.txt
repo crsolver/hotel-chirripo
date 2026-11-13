@@ -1,0 +1,26 @@
+FOTOS DEL HOTEL CHIRRIPÓ
+========================
+
+Todavía no hay fotos. Las imágenes del sitio son marcadores de posición
+generados con CSS (bloques azules con el nombre del espacio).
+
+Pedir al hotel:
+  fachada.webp              Fachada y entrada
+  recepcion.webp            Recepción
+  restaurante.webp          Restaurante / terraza
+  habitacion-economica.webp Habitación con baño compartido
+  habitacion-doble.webp     Habitación doble con baño privado
+  habitacion-familiar.webp  Habitación familiar
+  bano-compartido.webp      Baño compartido
+  logo.png                  Logo en alta resolución
+
+Tamaños sugeridos:
+  hero         2000 x 1200
+  habitaciones 1600 x 1200
+  galería      1200 x 1200
+  Formato .webp o .jpg, menos de 400 KB por imagen.
+
+Al recibirlas:
+1. Guardarlas aquí con esos nombres.
+2. En src/data/hotel.ts, cambiar `image: null` por `image: "/img/archivo.webp"`.
+3. En `hero.image` usar la foto de fachada.
